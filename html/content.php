@@ -1,13 +1,19 @@
 <?php
-if(isset($id)) {
-	switch ($_GET[r]) {
+if(isset($_GET['r'])) {
+	switch ($_GET['r']) {
 		case 'product':
-			include 'files/product.php';
+			include 'product.php';
+			break;
+		case 'pages':
+			include 'page.php';
 			break;
 		
 		default:
-			include 'files/products.php';
+			include 'products.php';
 			break;
 	}
+
+} else {
+	include 'products.php';
 }
 
