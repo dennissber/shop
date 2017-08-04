@@ -2,18 +2,18 @@
 if(isset($_GET['r'])) {
 	switch ($_GET['r']) {
 		case 'product':
-			include 'product.php';
+			include '/product.php';
 			break;
 		case 'pages':
-			include 'page.php';
+			include '/page.php';
 			break;
 		
 		default:
-			include 'products.php';
+			include '/products.php';
 			break;
 	}
 
 } else {
-	include 'products.php';
+	include '/products.php';
 }
 

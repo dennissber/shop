@@ -22,7 +22,7 @@ if (isset($id)) {
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="files/images/product.jpg" width="100%" height="100%">
+				<img src="/files/images/product.jpg" width="100%" height="100%">
 			</div>
 			<div class="col-md-4">
 				

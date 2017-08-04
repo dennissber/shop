@@ -9,10 +9,10 @@ include './data/products.php';
             <div class="col-lg-4">
                 <div class="panel panel-info">
                     <div class="image text-center">
-                        <img src="files/images/product.jpg" width="100px">
+                        <img src="/files/images/product.jpg" width="100px">
                     </div>
                     <div class="name text-center">
-                        <a href="/shop/?r=product&id=<?php echo $product->id ?>"><?php echo $product->name ?></a>
+                        <a href="/?r=product&id=<?php echo $product->id ?>"><?php echo $product->name ?></a>
                     </div>
                     <div class="price">
                         <?php if(count($product->variants) > 1) :?>
